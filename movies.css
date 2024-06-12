@@ -1,0 +1,46 @@
+body {
+    font-family: DM Sans, Arial, sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the top */
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; /* Add some padding */
+}
+
+h1 {
+    color: #ed2456;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#movieForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#movieForm label {
+    margin-right: 5px; /* Add some space between labels and inputs */
+}
+
+#movieForm input,
+#movieForm button {
+    margin: 5px; /* Add some space between inputs and buttons */
+    font-size: 20px;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+button {
+    font-size: 15px;
+}
+
